@@ -56,7 +56,7 @@ Welcome to the **Data Analytics Roadmap & Projects** repository! 🚀 This guide
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/data-analytics-roadmap.git
+   git clone https://github.com/Rupayan20/Learn-Data-Analytics
 Install the required dependencies:
 bash
 Copy
@@ -64,7 +64,7 @@ Edit
 pip install -r requirements.txt
 Explore the roadmap and project folders for step-by-step guidance.
 
-##📝 Contributions
+## 📝 Contributions
 Contributions are welcome! If you want to add projects, enhance the roadmap, or fix issues, feel free to:
 
 Fork this repository.
@@ -73,6 +73,7 @@ Submit a pull request.
 
 ## 📬 Contact
 Feel free to reach out if you have questions or suggestions:
+-  [YouTube Channel](https://www.youtube.com/@Im_rupuu) 
+- [LinkedIn Profile](https://www.linkedin.com/in/rupayan-dutta-064908195/) 
 
-Email: your-duttarupayan08@gmail.com
-LinkedIn: https://www.linkedin.com/in/rupayan-dutta
+**Happy Learning! 🚀**
