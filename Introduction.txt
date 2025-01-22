@@ -1,0 +1,58 @@
+# Data Analytics Overview 🚀
+
+## Introduction  
+Data analytics is the science of analyzing raw data to find trends and answer questions.
+
+---
+
+### **Future Scope**
+- **In-Demand Skill**: 45% of in-demand jobs currently require data analytics professionals.  
+- **Growing Demand**: As the volume of data generated daily increases, the demand for skilled analysts will continue to grow.
+
+---
+
+## Roadmap for Data Analytics 🛤️
+1. **Python Basics**  
+2. **Libraries**: Numpy, Pandas, Matplotlib, Seaborn  
+3. **SQL**: Data Analytics in MySQL  
+4. **Excel**: Cleaning, Transforming, Modeling, Visualization  
+5. **Power BI**  
+
+---
+
+### **Python Programming**  
+Python is the most popular programming language, widely used for its versatility.
+
+#### **Creator of Python**  
+- Developed by **Guido Van Rossum** in 1991.  
+- Named after **Monty Python's Flying Circus**, a British comedy series.  
+- Major Releases:  
+  - Python 2.0 (2000)  
+  - Python 3.0 (2008)  
+
+---
+
+## Features of Python 🐍  
+- Object-Oriented  
+- Dynamically Typed  
+- GUI Programming Support  
+- Extensible  
+- Large Standard Library  
+- Free and Open Source  
+- Cross-Platform  
+- Interpreted Language  
+- Easy to Learn and Use  
+
+---
+
+### Applications of Python 🌐
+1. Data Science  
+2. Web Development  
+3. Data Engineering  
+4. Machine Learning  
+5. Artificial Intelligence  
+6. Data Analytics  
+
+---
+
+ 
