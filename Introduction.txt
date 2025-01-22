@@ -54,5 +54,3 @@ Python is the most popular programming language, widely used for its versatility
 6. Data Analytics  
 
 ---
-
- 
