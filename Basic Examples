@@ -1,0 +1,49 @@
+Basic Examples:
+
+Q1. How to call a print function in Python?
+
+Answer:
+To call a print function in Python, you simply need to write `print` followed by parentheses `()` and place the value inside quotation marks `" "`.
+
+Example:
+print("Myself Rupayan!")
+
+---
+
+Q2. How to print using multiple lines in Python?
+
+Answer:
+There are two methods to print statements on multiple lines in Python:
+
+1. Triple Quotation Marks: Use triple quotes (`"""` or `'''`) to span the string over multiple lines.
+2. Newline Character (`\n`): Use the `\n` character to insert a line break.
+
+Method 1: Triple Quotation Marks
+print("""Good Morning!
+Myself Rupayan""")
+
+Method 2: Using \n
+print("Good Morning! \nMyself Rupayan")
+
+---
+
+Q3. How to add comments in Python?
+
+Answer:
+Comments in Python are used to explain parts of the code. Python ignores comments.
+
+1. Single-line Comment: Use `#` to start a single-line comment.
+2. Multi-line Comment: Use triple quotes (`"""` or `'''`) to span comments across multiple lines.
+
+Single-line comment example:
+# print hello world
+print("Hello World!")
+
+Multi-line comment example:
+"""
+This is a multi-line comment example.
+You can write explanations across multiple lines for better clarity.
+"""
+
+print("Good Morning Everyone. \nMyself Rupayan Dutta.")
+---
