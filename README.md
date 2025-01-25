@@ -23,7 +23,7 @@ Welcome to the **Data Analytics Roadmap & Projects** repository! 🚀 This guide
 
 # Table of Contents
 - [Data Analysis Introduction](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Introduction.txt)
-- [Basic Examples](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Basic%20Examples.txt)
+- [Basic Examples](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Basic%20Examples)
 - [Variables]()
 - [Data Types and User Input]()
 - [TypeCasting and Subtypes]()
