@@ -1,0 +1,18 @@
+What are Variables?
+Variables are placeholders that store values.
+In simple terms, a variable is a container that holds data inside it.
+
+Example 1:
+a = 6
+b = 2
+print(a + b)  # Output: 8
+
+Example 2:
+first_name = "Rupayan"
+last_name = "Dutta"
+print("My name is", first_name + " " + last_name)  # Output: My name is Rupayan Dutta
+
+Important Notes:
+i) Python is a case-sensitive language, meaning Name, name, and NAME are all different variables.
+ii) Spaces are not allowed in variable names; use an underscore (_) instead (e.g., first_name).
+iii)A variable name should never start with a number or special symbols.
