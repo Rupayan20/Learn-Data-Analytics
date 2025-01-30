@@ -1,0 +1,40 @@
+Day 5:
+
+# **TypeCasting and Subtypes**
+
+## TypeCasting
+Conversion of one data type to another is called **TypeCasting**.
+
+There are two types of TypeCasting:
+- **Implicit Type Conversion**: Python automatically converts one data type to another.
+- **Explicit Type Conversion**: The user manually converts data from one type to another.
+
+### Example of Implicit Type Conversion
+When performing operations involving different numeric types, Python automatically promotes them to a common type.
+
+```python
+# Sum of an integer and a float
+num1 = 6
+num2 = 2.7
+sum_result = num1 + num2
+print(sum_result)
+print(type(sum_result))  # Output: float
+```
+
+### Example of Explicit Type Conversion
+Manually converting a variable from one type to another.
+
+```python
+# Concatenating a string with an integer
+name = "Rupayan"
+birth_year = 2000
+print(name + " " + str(birth_year))  # Convert int to str
+```
+
+### Important Notes
+- **Implicit Conversion** happens when Python handles type conversion automatically.
+- **Explicit Conversion** requires manual conversion using functions like `int()`, `float()`, `str()`.
+- Using incorrect type conversion may lead to errors.
+
+---
+
