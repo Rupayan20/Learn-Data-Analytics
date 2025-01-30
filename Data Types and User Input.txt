@@ -1,0 +1,44 @@
+# **Data Types and User Input**
+
+## Data Types in Python
+Python provides various built-in data types:
+
+- **Text Type**: `str`
+- **Numeric Types**: `int`, `float`, `complex`
+- **Sequence Types**: `list`, `tuple`, `range`
+- **Mapping Type**: `dict`
+- **Set Types**: `set`, `frozenset`
+- **Boolean Type**: `bool`
+- **Binary Types**: `bytes`, `bytearray`, `memoryview`
+- **None Type**: `NoneType`
+
+---
+
+## User Input in Python
+User input allows interaction by accepting values during program execution.
+
+```python
+# Accepting user input
+your_name = input("Enter your name: ")
+print("Your name is:", your_name)
+
+# Accepting an integer input
+your_age = int(input("Enter your age: "))
+print("Your age is:", your_age)
+
+# Accepting a float input
+your_work = float(input("How many hours do you work? "))
+print("You work", your_work, "hours per day")
+
+# Accepting a numerical input using eval()
+your_salary = eval(input("Enter your monthly earnings ($): "))
+print("Your earnings are:", your_salary, "$ per month")
+```
+
+### Important Notes
+- `input()` always returns a **string**, so type conversion (e.g., `int()`, `float()`) is necessary for numeric inputs.
+- `eval()` should be used with caution, as it can execute arbitrary code.
+- Providing meaningful prompts improves user experience.
+
+---
+
