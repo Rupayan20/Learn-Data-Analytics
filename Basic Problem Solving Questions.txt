@@ -1,0 +1,122 @@
+Day 4:
+
+# **Data Types and User Input**
+
+## Data Types in Python
+Python provides various built-in data types:
+
+- **Text Type**: `str`
+- **Numeric Types**: `int`, `float`, `complex`
+- **Sequence Types**: `list`, `tuple`, `range`
+- **Mapping Type**: `dict`
+- **Set Types**: `set`, `frozenset`
+- **Boolean Type**: `bool`
+- **Binary Types**: `bytes`, `bytearray`, `memoryview`
+- **None Type**: `NoneType`
+
+---
+
+## User Input in Python
+User input allows interaction by accepting values during program execution.
+
+```python
+# Accepting user input
+your_name = input("Enter your name: ")
+print("Your name is:", your_name)
+
+# Accepting an integer input
+your_age = int(input("Enter your age: "))
+print("Your age is:", your_age)
+
+# Accepting a float input
+your_work = float(input("How many hours do you work? "))
+print("You work", your_work, "hours per day")
+
+# Accepting a numerical input using eval()
+your_salary = eval(input("Enter your monthly earnings ($): "))
+print("Your earnings are:", your_salary, "$ per month")
+```
+
+### Important Notes
+- `input()` always returns a **string**, so type conversion (e.g., `int()`, `float()`) is necessary for numeric inputs.
+- `eval()` should be used with caution, as it can execute arbitrary code.
+- Providing meaningful prompts improves user experience.
+
+---
+
+# **Problem Solving Questions**
+
+## **Q1. Write a program to display a person’s name, age and address in three different lines.**
+
+```python
+name = "Rupayan Dutta"
+age = 24
+address = "Fulia Pareshnath, Nadia"
+
+print("My name is:", name)
+print("My age is:", age)
+print("My address is:", address)
+```
+
+## **Q2. Write a program to swap two variables.**
+
+### First way: Using a temporary variable
+```python
+num1 = 6
+num2 = 2
+
+temp = num1
+num1 = num2
+num2 = temp
+
+print("The value of num1 is:", num1)
+print("The value of num2 is:", num2)
+```
+
+### Second way: Using tuple unpacking
+```python
+num1 = 6
+num2 = 2
+num1, num2 = num2, num1
+
+print("The value of num1 is:", num1)
+print("The value of num2 is:", num2)
+```
+
+## **Q3. Write a program to convert a float into an integer.**
+```python
+age = 24.11
+converted_age = int(age)
+print(converted_age)
+print(type(converted_age))
+```
+
+## **Q4. Write a program to take details from a student for an ID-card and then print it in different lines.**
+```python
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+age = int(input("Enter your age: "))
+roll_number = input("Enter your roll number: ")
+year = input("Enter your year: ")
+department = input("Enter your department: ")
+phone_number = input("Enter your phone number: ")
+email_id = input("Enter your email Id: ")
+
+print("\nStudent ID Card")
+print("Name:", first_name, last_name)
+print("Age:", age)
+print("Roll Number:", roll_number)
+print("Year:", year)
+print("Department:", department)
+print("Phone Number:", phone_number)
+print("Email ID:", email_id)
+```
+
+## **Q5. Write a program to take a user input as an integer and then convert it to a float.**
+```python
+age = int(input("Enter your age: "))
+age = float(age)
+print(age)
+print(type(age))
+```
+
