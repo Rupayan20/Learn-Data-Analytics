@@ -1,0 +1,88 @@
+Day 5:
+
+# **Operators and Operands**
+
+Operators indicate what operation is to be performed while Operands indicate on what the action or the operation should be performed.
+
+Example:
+```python
+a + b = 0
+```
+In the given expression, `a`, `b`, and `0` are Operands, and `+` is the Operator.
+
+## **Types of Operators**
+Operators can be further divided into 7 categories:
+
+1. Arithmetic Operators
+2. Comparison Operators
+3. Logical Operators
+4. Assignment Operators
+5. Identity Operators
+6. Membership Operators
+7. Bitwise Operators
+
+## **Arithmetic Operators**
+```python
+num1 = 6
+num2 = 2
+
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+exponential = num1 ** num2
+division = num1 / num2
+floor_division = num1 // num2
+modulus = num1 % num2
+```
+
+## **Comparison Operators**
+```python
+print(6 > 2)  # Greater Than
+print(6 < 2)  # Less Than
+print(6 == 6) # Equal To
+print(3 != 6) # Not Equal To
+print(2 >= 6) # Greater Than or Equal To
+print(2 <= 6) # Less Than or Equal To
+```
+
+## **Logical Operators**
+```python
+b, m, k = 6, 2, 9
+print(b > k and m > k)  # AND Operator
+print(b < k or m < k)   # OR Operator
+print(not (b < k or m < k))  # NOT Operator
+```
+
+## **Assignment Operators**
+```python
+x = 6
+x += 2
+x -= 2
+x *= 2
+print(x)
+```
+
+## **Identity Operators**
+```python
+b, m = 6, 2
+print(b is m)   # Is Operator
+print(b is not str(m)) # Is Not Operator
+```
+
+## **Bitwise Operators**
+```python
+a, b = 6, 2
+print(a & b)  # AND
+print(a | b)  # OR
+print(a ^ b)  # XOR
+print(a >> b) # Zero Fill Right Shift
+print(a << b) # Zero Fill Left Shift
+```
+
+## **Membership Operators**
+```python
+name = "Rupayan"
+print("R" in name)
+print("Z" not in name)
+```
+
