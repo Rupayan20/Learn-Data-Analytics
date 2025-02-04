@@ -29,7 +29,7 @@ Welcome to the **Data Analytics Roadmap & Projects** repository! 🚀 This guide
 - [TypeCasting and Subtypes](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/TypeCasting%20and%20Subtypes.txt)
 - [Problem Solving Questions on Variables, Data Types](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Basic%20Problem%20Solving%20Questions.txt)
 - [Operators and Operands](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Operators%20and%20Operands.txt)
-- [Conditional Statement](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Conditional%20and%20Statement.txt)
+- [Conditional Statement](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Conditional%20Statement.txt)
 
 ---
 
