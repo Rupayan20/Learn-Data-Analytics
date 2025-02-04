@@ -1,0 +1,207 @@
+#**Conditional Statement**
+
+Conditional Statement allows a computer to execute a certain condition only if it is true.
+
+**Types of Conditional Statements:**
+*   **If Statement**
+*   **If-Else Statement**
+*   **If-Elif-Else Statement**
+*   **Nested If Statement**
+*   **Short Hand If Statement**
+*   **Short Hand If-Else Statement**
+
+##**If Statement**
+
+The If statement is the most fundamental decision-making statement.
+
+The If statement in Python has the following syntax:
+
+    if expression:
+        statement
+
+```python
+marks = float(input("Enter your score (percentage): "))
+
+if marks >= 60:
+    print("Congratulations! You passed.")
+
+print("Sorry, better luck next time!")
+```
+
+##**If-Else Statement**
+
+The If-Else statement is used when we want to provide two possible outcomes.
+
+If-Else statement in Python has the following syntax:
+
+    if condition:
+        # executes this block if the condition is true
+    else:
+        # executes this block if the condition is false
+
+```python
+age = int(input("Enter your age: "))
+
+if age < 18:
+    print("You are not eligible for voting!")
+else:
+    print("You are eligible for voting!")
+```
+
+##**If-Elif-Else Statement**
+
+If the if condition is false, the elif statement is evaluated. If it is also false, the else statement is executed.
+
+If-Elif-Else statement in Python has the following syntax:
+
+    if condition:
+        # executes this block if the condition is true
+    elif condition:
+        # executes this block if the condition is true
+    else:
+        # executes this block if the conditions are false
+
+```python
+score = float(input("Enter your DBMS marks: "))
+
+if 60 < score < 75:
+    print("First division!")
+elif score >= 75:
+    print("First class with distinction!")
+else:
+    print("You failed!")
+```
+
+##**Nested If Statement**
+
+A Nested If statement is one in which an if statement is placed inside another if statement.
+
+The Nested If statement in Python has the following syntax:
+
+    if condition1:
+        if condition2:
+            # executes if condition2 is true
+
+```python
+score = float(input("Enter your DBMS marks: "))
+
+if score >= 70:
+    if 80 <= score < 90:
+        print("You got grade 'E'")
+    elif score >= 90:
+        print("You got grade 'O'")
+    else:
+        print("You got grade 'A'")
+elif score < 60:
+    print("You failed")
+else:
+    print("You passed")
+```
+
+##**Short Hand If Statement**
+
+This is used when only one statement needs to be executed inside the if block.
+
+Syntax:
+
+    if condition: statement
+
+```python
+marks = float(input("Enter your score (percentage): "))
+if marks >= 60: print("Congratulations! You passed.")
+```
+
+##**Short Hand If-Else Statement**
+
+If there is only one statement for both if and else blocks, it can be written in one line.
+
+Syntax:
+
+    statement if condition else statement
+
+```python
+age = int(input("Enter your age: "))
+print("You are not eligible for voting!") if age < 18 else print("You are eligible for voting!")
+```
+
+##**Problem Solving Questions**
+
+###**Q1. Write a program to check if a number is positive or not.**
+
+```python
+num = float(input("Enter your number: "))
+
+if num > 0:
+    print("Number is positive")
+else:
+    print("Number is not positive")
+```
+
+###**Q2. Write a program to check whether a number is odd or even.**
+
+```python
+num = float(input("Enter your number: "))
+print("Number is even") if num % 2 == 0 else print("Number is odd")
+```
+
+###**Q3. Write a program to create an area calculator.**
+
+```python
+print("########## Area Calculator ##########")
+print("""Press 1 to find the area of a rectangle
+Press 2 to find the area of a square
+Press 3 to find the area of a circle
+Press 4 to find the area of a triangle""")
+
+choose_area = int(input("Enter your choice (1-4): "))
+
+if choose_area == 1:
+    length = float(input("Enter the length of the rectangle: "))
+    width = float(input("Enter the width of the rectangle: "))
+    print("The area of the rectangle is:", length * width, "cm²")
+elif choose_area == 2:
+    side = float(input("Enter the value of the square's side: "))
+    print("The area of the square is:", side * side, "cm²")
+elif choose_area == 3:
+    radius = float(input("Enter the value of the circle's radius: "))
+    print("The area of the circle is:", (22/7) * radius * radius, "cm²")
+elif choose_area == 4:
+    base = float(input("Enter the base of the triangle: "))
+    height = float(input("Enter the height of the triangle: "))
+    print("The area of the triangle is:", (1/2) * base * height, "cm²")
+else:
+    print("Invalid Input")
+```
+
+###**Q4. Write a program to check whether the entered letter is a vowel or not.**
+
+```python
+vowel = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+
+your_letter = input("Enter your letter: ")
+
+if your_letter in vowel:
+    print("Your letter is a vowel")
+else:
+    print("Your letter is not a vowel")
+```
+
+###**Q5. Write a program to check the number of digits in a given number (up to 5 digits).**
+
+```python
+your_num = int(input("Please enter a number up to 5 digits: "))
+
+if -9 <= your_num <= 9:
+    print("This number is a single-digit number.")
+elif 10 <= your_num <= 99:
+    print("This number is a two-digit number.")
+elif 100 <= your_num <= 999:
+    print("This number is a three-digit number.")
+elif 1000 <= your_num <= 9999:
+    print("This number is a four-digit number.")
+elif 10000 <= your_num <= 99999:
+    print("This number is a five-digit number.")
+else:
+    print("Invalid Input")
+```
+
