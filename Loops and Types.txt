@@ -1,0 +1,225 @@
+#**Loops and Types**
+
+A loop means to repeat something in the exact same way.
+
+Types of loops are:
+
+* **For Loop**
+* **While Loop**
+* **While True**
+* **Nested Loop**
+
+##**For Loop**
+
+* For loop is a loop that repeats something in a given range.
+* The range has a starting point, ending point, and a step/gap in it.
+* +1 is added to the ending point while defining a range.
+
+```python
+range(j,k,l)
+j=starting point
+k=ending point
+l=gap
+```
+```python
+for i in range(1,6,2):
+  print(i)
+```
+
+# Multiplication of given number
+```python
+m=int(input("Enter one integer number: "))
+n=m*11
+
+print("Multiplication of "+str(m)+" is: ")
+for i in range(m,n,m):
+  print(i)
+```
+
+##**While Loop**
+
+* While loop executes till the given condition is true.
+* In while loop, the increment is done inside the loop.
+
+```python
+n=1
+
+while(n<=5):
+  print(n)
+  n+=1
+```
+
+# Multiplication of given number
+```python
+m=1
+n=int(input("Enter Any Table Number: "))
+
+print("Multiplication of "+str(n)+" is: ")
+while(m<=10):
+  print(m*n)
+  m+=1
+```
+
+##**While True Loop**
+
+* It is an infinite loop
+* To break a while true loop, break statement is used.
+
+```python
+while True:
+  num1=int(input("Enter first number: "))
+  num2=int(input("Enter second number: "))
+
+  print(num1+num2)
+
+  repeat= input("Do you want to stop the program (YES/NO): ")
+  if(repeat=="YES"):
+    break
+```
+
+##**Nested Loop**
+
+* A loop inside a loop is called a nested loop.
+* Nested loops are also used to solve pattern problems.
+
+```python
+m=int(input("Enter the number(add +1): "))
+n=11
+
+for i in range(1,m):
+  print("The table of "+str(i))
+  for j in range(1,n):
+    print(j*i, end=" ")
+  print()
+```
+
+# Print Pattern
+```python
+for i in range(1,6):
+  for j in range(1,i+1):
+    print(j, end=" ")
+  print()
+```
+
+##**Additional Topics**
+
+###**For Loop with Conditional Statement**
+
+The use of if-else statements increases the ability of for loop to complete the task effectively.
+
+```python
+for i in range(1,10):
+  if i==6:
+    print(str(i)+" is my Moolank")
+  else:
+    print(i)
+```
+
+# Print numbers (1-100) divisible by 8 and 12
+```python
+for i in range(1,101):
+  if (i%8==0) & (i%12==0):
+    print(i)
+```
+
+###**While Loop with Conditional Statement**
+
+```python
+b=1
+
+while(b<10):
+  if(b==2):
+    print(str(b)+" is my Bhagyank")
+  else:
+    print(b)
+  b+=1
+```
+
+###**Break & Continue Statement**
+
+* **Continue Statement:** Used when you want to skip a particular condition.
+* **Break Statement:** Used when you want to terminate a loop at a certain condition.
+
+```python
+# Continue statement
+for i in range(1,10):
+  if i==2:
+    continue
+  else:
+    print(i)
+```
+
+```python
+# Break statement
+for i in range(1,10):
+  if i==7:
+    break
+  print(i)
+```
+
+##**Problem Solving Questions**
+
+###**Q1. Find the sum of all even numbers up to 50.**
+
+```python
+temp=0
+for i in range(1,51):
+  if i%2==0:
+    temp=temp+i
+print("Sum of all the even numbers up to 50 is: "+str(temp))
+```
+
+###**Q2. First 20 numbers and their squares.**
+
+```python
+for i in range(1,21):
+  squareNum=i*i
+  print("The square number of "+str(i)+" is: "+str(squareNum))
+```
+
+###**Q3. Sum of first 10 odd numbers using a while loop.**
+
+```python
+temp=0
+n=1
+while(n<=20):
+  if(n%2!=0):
+    temp=temp+n
+  n+=1
+print(temp)
+```
+
+###**Q4. Check if a number is divisible by 8 and 12 up to 100.**
+
+```python
+for i in range(1,101):
+  if(i%8==0 and i%12==0):
+    print(str(i)+" is divisible by 8 and 12")
+```
+
+###**Q5. Billing system at a supermarket.**
+
+```python
+while True:
+  name=str(input("Enter customer's name: "))
+  billAmount=0
+
+  while True:
+    print("Now Enter the Quantity and Amount: ")
+    quantity= float(input("Enter your quantity: "))
+    amount=float(input("Enter total amount: "))
+    billAmount= billAmount+(quantity*amount)
+    repeat= str(input("Do you want to add more products: YES/NO: "))
+    if (repeat.lower()=="no"):
+      break
+  print("-"*50)
+  print("Name: "+str(name))
+  print("Total Bill Amount: "+str(billAmount))
+  print("Happy Shopping")
+  print("-"*50)
+
+  wantContinue=str(input("Do you want to continue for next customer: YES/NO: "))
+  if (wantContinue.lower()=="no"):
+    break
+```
+
