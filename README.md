@@ -30,7 +30,7 @@ Welcome to the **Data Analytics Roadmap & Projects** repository! 🚀 This guide
 - [Problem Solving Questions on Variables, Data Types](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Basic%20Problem%20Solving%20Questions.txt)
 - [Operators and Operands](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Operators%20and%20Operands.txt)
 - [Conditional Statement](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Conditional%20Statement.txt)
-- -[Loops And Types](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Loops%20and%20Types.txt)
+- [Loops And Types](https://github.com/Rupayan20/Learn-Data-Analytics/blob/main/Loops%20and%20Types.txt)
 
 ---
 
